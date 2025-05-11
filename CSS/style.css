@@ -1,0 +1,22 @@
+#est{color: antiquewhite;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: inline;
+padding: 20px;
+border-radius: 10px;
+}
+.body{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.imag{
+    width: 200px;
+    height: 150px;
+    float: right;
+    background-image: url(imagen/logo.jpg);
+    border: 8px #190A05 double;
+}
+.parrafo{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
