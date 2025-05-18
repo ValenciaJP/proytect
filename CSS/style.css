@@ -1,0 +1,86 @@
+
+.titulos-1 {color: rgb(248, 246, 246);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: inline;
+padding: 40px;
+}
+
+.titulos-2{color: #f8f7f6;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 10px;
+display: inline;
+font-weight: 700;
+font-size: 30px;
+}
+
+.imag{
+    width: 200px;
+    height: 150px;
+    float: right;
+    background-image: url(imagen/logo.jpg);
+    border: 8px #190A05 double;
+}
+
+.parrafo-1{ color: #f6f2f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 10px ;
+    font-size: 25px;
+    font-weight:600;
+
+}
+
+.parrafo-2{ color: #fbfafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+
+    .d-item{
+        height: 500px;
+    }
+    
+   .d-img{
+    height: 100%;
+    object-fit: cover;
+   }
+
+  #bolsa {
+ display: none;
+}
+
+.menu {
+    position: relative;
+    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.menu:hover #bolsa {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  background-color: #4e4b5076;
+  padding: 20px;
+  min-height: 400px;
+
+}
+#imagen-bolsa{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+ body{
+background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
