@@ -84,3 +84,21 @@ background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-
 background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
  }
+
+ table{
+    width: 100%;
+ }
+
+ th,td{
+    color: #ffffff;
+ }
+
+ .borrar{
+    background-color: #111;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+ }
