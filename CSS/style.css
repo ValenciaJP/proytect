@@ -68,7 +68,7 @@ font-size: 30px;
   backdrop-filter: blur(10px);
   background-color: #4e4b5076;
   padding: 20px;
-  min-height: 400px;
+  min-width: 400px;
 
 }
 #imagen-bolsa{
@@ -101,4 +101,13 @@ background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, 
     color: #ffffff;
     font-weight: 800;
     cursor: pointer;
+ }
+
+ .btn-2{
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: #111;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
  }
