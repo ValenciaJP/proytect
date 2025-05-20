@@ -111,3 +111,23 @@ background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, 
     border-radius: 5px;
     font-size: 15px;
  }
+
+ .produc{
+    padding: 50px 0px;
+    text-align: center;
+ }
+
+ .produc h2{
+    color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+ }
+
+ .produc-content{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap : 50px
+
+ }
