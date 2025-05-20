@@ -129,5 +129,18 @@ background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, 
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
     gap : 50px
-
  }
+
+ .produc{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+ }
+
+ .produc img{
+    width: 250px;
+    height: 370px;
+    margin-bottom: 20px;
+ }
+
+ 
