@@ -1,181 +1,192 @@
-
-.titulos-1 {color: rgb(248, 246, 246);
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-display: inline;
-padding: 40px;
+.titulos-1 {
+   color: rgb(248, 246, 246);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: inline;
+   padding: 40px;
 }
 
-.titulos-2{color: #f8f7f6;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 10px;
-display: inline;
-font-weight: 700;
-font-size: 30px;
+.titulos-2 {
+   color: #f8f7f6;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   display: inline;
+   font-weight: 700;
+   font-size: 30px;
 }
 
-.imag{
-    width: 200px;
-    height: 150px;
-    float: right;
-    background-image: url(imagen/logo.jpg);
-    border: 8px #190A05 double;
+.imag {
+   width: 200px;
+   height: 150px;
+   float: right;
+   background-image: url(imagen/logo.jpg);
+   border: 8px #190A05 double;
 }
 
-.parrafo-1{ color: #f6f2f0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    padding: 10px ;
-    font-size: 25px;
-    font-weight:600;
+.parrafo-1 {
+   color: #f6f2f0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   font-size: 25px;
+   font-weight: 600;
 
 }
 
-.parrafo-2{ color: #fbfafa;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: 500;
+.parrafo-2 {
+   color: #fbfafa;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: 500;
 }
-  
 
-    .d-item{
-        height: 500px;
-    }
-    
-   .d-img{
-    height: 100%;
-    object-fit: cover;
-   }
 
-  #bolsa {
- display: none;
+.d-item {
+   height: 500px;
+}
+
+.d-img {
+   height: 100%;
+   object-fit: cover;
+}
+
+#bolsa {
+   display: none;
 }
 
 .menu {
-    position: relative;
-    align-items: center;
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
+   position: relative;
+   align-items: center;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   width: 100px;
+   float: right;
 
 }
 
 .menu:hover #bolsa {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  z-index: 1;
-  backdrop-filter: blur(10px);
-  background-color: #4e4b5076;
-  padding: 20px;
-  min-width: 400px;
+   position: absolute;
+   display: block;
+   padding: 20px;
+   top: 100%; 
+   right: 0;
+   top: 100%; 
+   z-index: 1;
+   backdrop-filter: blur(10px);
+   background-color: #4e4b5076;
+   padding: 20px;
+   min-width: 400px;
+}
+
+#imagen-bolsa {
+   width: 75px;
+   height: auto;
+   cursor: pointer;
+   margin-right: 20px;
+   padding: 20px;
+}
+
+body {
+   background: #ad5389;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #3c1053, #ad5389);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-#imagen-bolsa{
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-    margin-right: 20px;
-    
+
+table {
+   width: 100%;
 }
- body{
-background: #ad5389;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
- }
+th,
+td {
+   color: #ffffff;
+}
 
- table{
-    width: 100%;
- }
-
- th,td{
-    color: #ffffff;
- }
-
- .borrar{
-    background-color: #111;
-    border-radius: 50%;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 800;
-    cursor: pointer;
- }
-
- .btn-2{
-    display: inline-block;
-    padding: 7px 10px;
-    background-color: #111;
-    color: #ffffff;
-    border-radius: 5px;
-    font-size: 15px;
- }
-
- .produc{
-    padding: 50px 0px;
-    text-align: center;
- }
-
- .produc h3{
-    color: #ffffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-bottom: 50px;
- }
-
- .produc-content{
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap : 50px
- }
-
- .produc{
-    text-align: center;
-    padding: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
- }
-
- .produc img{
-    width: 250px;
-    height: 370px;
-    margin-bottom: 20px;
- }
-
- .footer{
-background: #ad5389;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- }
-
- .footer-content-container{
-   columns: 4;
-   text-align: left ;
+.borrar {
+   background-color: #111;
+   border-radius: 50%;
+   padding: 5px 10px;
    text-decoration: none;
- }
- 
- .footer-content-container h3{
+   color: #ffffff;
+   font-weight: 800;
+   cursor: pointer;
+}
+
+.btn-2 {
+   display: inline-block;
+   padding: 7px 10px;
+   background-color: #111;
+   color: #ffffff;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
+.produc {
+   padding: 50px 0px;
+   text-align: center;
+}
+
+.produc h3 {
+   color: #ffffff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+
+.produc-content {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 50px
+}
+
+.produc {
+   text-align: center;
+   padding: 30px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+}
+
+.produc img {
+   width: 250px;
+   height: 370px;
+   margin-bottom: 20px;
+   border-radius: 50px;
+}
+
+.footer {
+   background: #ad5389;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #3c1053, #ad5389);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #3c1053, #ad5389);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-content-container {
+   columns: 4;
+   text-align: left;
+   text-decoration: none;
+}
+
+.footer-content-container h3 {
    text-align: left;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #f8f7f6;
- }
- 
- .produc p{
+}
+
+.produc p {
    font-size: 20px;
    color: #111;
- }
+}
 
- .produc img{
-   border-radius: 50px;
- }
-
- .titulos-p {
+.titulos-p {
    padding: 50px;
    font-size: 40px;
    text-align: center;
    text-decoration: solid;
    color: #ffffff;
    position: top;
- }
- 
+}
