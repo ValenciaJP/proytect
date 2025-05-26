@@ -157,21 +157,33 @@ td {
 }
 
 .footer {
+padding: 50px;
   background-color:#48046d93;
 }
 
 
 .footer-content-container {
-   columns: 4;
-   text-align: left;
+   display: flex;
+   justify-content: space-between;
+  
+}
+
+.link h3{
+   font-size: 18px;
+   color: #ffffff;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.link a {
+   font-size: 16px;
+   color: #dcdcdc;
+   display: block;
+   margin-bottom: 10px;
    text-decoration: none;
 }
 
-.footer-content-container h3 {
-   text-align: left;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: #f8f7f6;
-}
 
 .produc p {
    font-size: 20px;
