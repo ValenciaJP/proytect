@@ -146,8 +146,15 @@ td {
 .produc {
    text-align: center;
    padding: 30px;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+   transition: box-shadow 0.4s ease, transform 0.4s ease;
 }
+
+.produc:hover{
+   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+   transform: scale(1.05);
+}
+
 
 .produc img {
    width: 250px;
@@ -159,6 +166,7 @@ td {
 .footer {
 padding: 50px;
   background-color:#48046d93;
+  margin-top: 40px;
 }
 
 
@@ -202,4 +210,11 @@ padding: 50px;
 .precio{
 font-variant-numeric:tabular-nums;
 font-weight:700;
+}
+
+.contenido-pr{
+   color:black;
+   top: auto;
+   display: flex;
+   margin-bottom: 20px;
 }
