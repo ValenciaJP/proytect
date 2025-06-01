@@ -208,7 +208,7 @@ padding: 50px;
 }
 
 .precio{
-font-variant-numeric:tabular-nums;
+font-variant-numeric:lining-nums;
 font-weight:700;
 }
 
