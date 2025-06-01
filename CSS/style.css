@@ -120,8 +120,9 @@ td {
    padding: 7px 10px;
    background-color: #111;
    color: #ffffff;
-   border-radius: 5px;
+   border-radius: 10px;
    font-size: 15px;
+   text-decoration: none;
 }
 
 .produc {
@@ -186,7 +187,7 @@ padding: 50px;
 
 
 .produc p {
-   font-size: 20px;
+   font-size: 22px;
    color: #111;
 }
 
@@ -197,4 +198,9 @@ padding: 50px;
    text-decoration: solid;
    color: #ffffff;
    position: top;
+}
+
+.precio{
+font-variant-numeric:tabular-nums;
+font-weight:700;
 }
